@@ -1,7 +1,6 @@
 import cv2
 from transform import getPerspective
 import numpy as np
-from imutils import resize
 
 def resize(image,height):
 	(h,w) = image.shape[:-1]
